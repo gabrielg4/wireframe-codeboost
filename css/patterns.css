@@ -1,0 +1,58 @@
+h1, h2, h3{
+    font-family: 'Sora',sans-serif;
+    font-weight: 700;
+    line-height: 110%;
+    font-size: 6.4rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.7rem;
+    color: var(--text-color);
+}
+
+
+
+.btn-primary {
+    display: inline-block;
+    background-color: var(--primary-color);
+    padding: 1.8rem 5.0rem;
+    border-radius: 5px;
+
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 110%;
+    transition: all .4s;
+}
+
+.btn-primary:hover {
+    background-color: #481CB8;
+    transform: scale(1.01);
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 1.8rem 5.2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 110%;
+    transition: all .4s;
+}
+
+.btn-secondary:hover {
+    background-color: var(--primary-color);
+    transform: scale(1.01);
+    color: var(--white);
+}

@@ -1,0 +1,267 @@
+@media(max-width: 1200px) {
+    .s-planos .container .all-cards-planos {
+       gap: 4rem 2%;
+    }
+
+    .s-faq .trends .image {
+        max-width: 40%;
+    }
+}
+
+@media(max-width: 991px) {
+    .s-hero {
+        padding-top: 4.1rem;
+    }
+    .s-hero .container {
+        flex-direction: column;
+    }
+    .s-hero .main-info {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        margin-bottom: 4rem;
+    }
+    .s-hero .image {
+        max-width: 70%;
+    }
+    .s-servicos .container .title p {
+        text-align: center;
+    }
+
+    .s-planos .container .all-cards-planos {
+        flex-direction: column;
+     }
+
+     .s-servicos .container .all-cards .card {
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+
+    }
+
+    .s-servicos .container .all-cards .card p {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .s-faq .trends{
+        flex-direction: column;
+    }
+
+    .s-faq .trends .image {
+        max-width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .s-faq .trends .trends-info {
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .s-faq .trends .trends-info h3 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    footer main nav {
+        max-width: 57%;
+    }
+
+}
+
+@media(max-width: 768px) {
+    header .container nav {
+        display: none;
+    }  
+    header  .btn-primary.responsive {
+        display: block;
+    }
+    .s-hero .main-info h1 {
+        font-size: 4rem;
+    }
+
+    footer main nav {
+        max-width: 57%;
+    }
+
+    footer main .area-left img{
+        margin: 0 auto;
+    }
+
+    footer main .area-left p {
+        text-align: center;
+    }
+
+    footer main {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 4rem;
+    }
+
+    footer main nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer main nav .item {
+        margin-top: 3rem;
+    }
+
+    footer main nav .item ul li {
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 600px) {
+    .s-hero .main-info h1{
+
+        font-size: 3rem;
+    }
+
+    .s-hero .main-info .buttons .btn-primary,
+    .s-hero .main-info .buttons .btn-secondary
+    {
+        padding: 1.5rem 2rem;
+    }
+
+    .s-planos {
+        padding-top: 5rem;
+    }
+    
+    .s-faq {
+        padding-top: 5rem;
+        padding-bottom: 7.5rem;
+    }
+
+    .s-faq .title h2 {
+       font-size: 2.1rem;
+    }
+    
+    .s-faq .trends {
+        margin-top: 5.5rem;
+    }
+
+    .s-faq .trends .trends-info h3 {
+
+        font-size: 1.9rem;
+     }
+
+    .s-faq .title .buttons a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0 auto 2rem;
+    }   
+
+    .s-time {
+        padding-bottom: 6rem;
+    }
+
+    .s-time .container .title h2{
+        font-size: 2rem;
+    }
+
+    .s-time .container .title p {
+        text-align: center;
+    }
+
+    .s-time .colaboradores {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s-time .colaboradores .ceo img {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .s-time .container h3 {
+        margin-top: 5rem;
+        font-size: 2rem;
+    }
+
+
+    footer .copy {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .copy p {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+   
+   
+}
+
+@media(max-width: 480px) {
+
+    header  .btn-primary.responsive {
+        padding: 1.5rem 2rem;
+    }
+
+    .s-hero .main-info h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .s-servicos .container .title h2 {
+        font-size: 2.5rem;
+    }
+    .s-servicos .container .title p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .s-servicos .container .all-cards .card {
+        flex-direction: column;
+    }
+
+    .s-planos .container h2 {
+        font-size: 2.5rem;
+    }
+
+    footer {
+        padding-top: 5rem;
+    }
+
+    footer main .area-left img{
+        margin: 0 auto;
+    }
+
+    footer main .area-left p {
+        text-align: center;
+    }
+
+    footer main {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 4rem;
+    }
+
+    footer main nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer main nav .item {
+        margin-top: 3rem;
+    }
+
+    footer main nav .item ul li {
+        text-align: center;
+    }
+
+
+
+}
